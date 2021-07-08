@@ -28,6 +28,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
+        [SerializeField] private AudioClip[] m_GoldPickUpSound;
+
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -265,8 +267,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             if (other.CompareTag("GoldCoins"))
             {
+                int RandomSoundIdx = Random.Range(0, m_GoldPickUpSound.Length);
+                m_AudioSource.clip = m_GoldPickUpSound[RandomSoundIdx];
+                m_AudioSource.Play();
                 Destroy(other.gameObject);
-                Debug.Log("FrankIsgay");
             }
         }
     }
