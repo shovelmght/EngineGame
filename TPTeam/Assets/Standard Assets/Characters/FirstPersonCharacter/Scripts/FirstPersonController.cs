@@ -256,13 +256,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
 
-
-
         private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("RockFloor"))
             {
                 Debug.Log("GabIsgay");
+            }
+
+            if (other.CompareTag("GoldCoins"))
+            {
+                Destroy(other.gameObject);
+                Debug.Log("FrankIsgay");
             }
         }
     }
