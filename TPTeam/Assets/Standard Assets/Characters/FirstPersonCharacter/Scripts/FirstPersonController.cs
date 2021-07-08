@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
+using System.Collections;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -27,8 +28,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
-
-        [SerializeField] private AudioClip[] m_GoldPickUpSound;
+        [SerializeField] private AudioClip m_FailingDeathSound;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -44,6 +44,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        private Vector3 m_SpawnPoint;
+
         // Use this for initialization
         private void Start()
         {
@@ -57,6 +59,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            m_SpawnPoint = transform.position;
         }
 
 
@@ -265,12 +268,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 Debug.Log("GabIsgay");
             }
 
-            if (other.CompareTag("GoldCoins"))
+            if (other.CompareTag("GroundLimit"))
             {
-                int RandomSoundIdx = Random.Range(0, m_GoldPickUpSound.Length);
-                m_AudioSource.clip = m_GoldPickUpSound[RandomSoundIdx];
+                m_AudioSource.clip = m_FailingDeathSound;
                 m_AudioSource.Play();
-                Destroy(other.gameObject);
+                
             }
         }
     }
