@@ -61,12 +61,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle / 2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-<<<<<<< Updated upstream
 			m_MouseLook.Init(transform , m_Camera.transform);
-            m_SpawnPoint = transform.position;
-=======
-            m_MouseLook.Init(transform, m_Camera.transform);
->>>>>>> Stashed changes
         }
 
 
