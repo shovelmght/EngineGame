@@ -5934,11 +5934,99 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
   m_PrefabInstance: {fileID: 1754344614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &29940698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 29940699}
+  - component: {fileID: 29940700}
+  m_Layer: 3
+  m_Name: RockDeteckt (23)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &29940699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29940698}
+  m_LocalRotation: {x: 0.36308393, y: -0.5833643, z: 0.6029149, w: 0.40540078}
+  m_LocalPosition: {x: -84.30002, y: -1.5, z: 82.60001}
+  m_LocalScale: {x: -7.620001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 81.861}
+--- !u!65 &29940700
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29940698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &32707176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 247205885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &33255769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33255770}
+  - component: {fileID: 33255771}
+  m_Layer: 3
+  m_Name: WaterDeteckt
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33255770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33255769}
+  m_LocalRotation: {x: 0.60687184, y: -0.33279562, z: 0.3437657, w: 0.6346486}
+  m_LocalPosition: {x: -97.77, y: -1.82, z: 93.27}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 50.139}
+--- !u!65 &33255771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33255769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &37530856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -6224,6 +6312,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
+--- !u!1 &95933965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95933966}
+  - component: {fileID: 95933967}
+  m_Layer: 3
+  m_Name: WaterDeteckt (3)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &95933966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95933965}
+  m_LocalRotation: {x: 0.64909834, y: -0.24024498, z: 0.24702497, w: 0.67818326}
+  m_LocalPosition: {x: -110.08, y: -1.58, z: 97.57}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 33.281}
+--- !u!65 &95933967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95933965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &102345188 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
@@ -6762,6 +6894,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
   m_PrefabInstance: {fileID: 426396358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &151065436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151065437}
+  - component: {fileID: 151065438}
+  m_Layer: 3
+  m_Name: RockDeteckt (2)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151065437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151065436}
+  m_LocalRotation: {x: 0.6402984, y: -0.26352623, z: 0.26824698, w: 0.6697877}
+  m_LocalPosition: {x: -115.70003, y: -1.5, z: 91.00002}
+  m_LocalScale: {x: -7.619999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 87.58, y: -12.998, z: 31.188}
+--- !u!65 &151065438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151065436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.71, y: 15.06, z: 13.76}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &164475769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6835,6 +7011,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
+--- !u!1 &165760436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165760437}
+  - component: {fileID: 165760438}
+  m_Layer: 3
+  m_Name: WaterDeteckt (7)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &165760437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165760436}
+  m_LocalRotation: {x: 0.49248287, y: 0.48631945, z: -0.50979805, w: 0.51094025}
+  m_LocalPosition: {x: -97.09, y: -1.17, z: 109.13}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -96.619}
+--- !u!65 &165760438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165760436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &170693576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7076,6 +7296,50 @@ Transform:
   m_Father: {fileID: 1018478139}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &214670705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214670706}
+  - component: {fileID: 214670707}
+  m_Layer: 3
+  m_Name: RockDeteckt (25)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214670706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214670705}
+  m_LocalRotation: {x: -0.1464658, y: -0.67133576, z: 0.71485513, w: -0.12976252}
+  m_LocalPosition: {x: -74.600006, y: -1.5, z: 107.40004}
+  m_LocalScale: {x: -7.6199994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 170.272}
+--- !u!65 &214670707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214670705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 19.4, z: 13.94}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &216110980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -8390,6 +8654,50 @@ Transform:
   m_Father: {fileID: 107078461}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &268547727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268547728}
+  - component: {fileID: 268547729}
+  m_Layer: 3
+  m_Name: RockDeteckt (31)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268547728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268547727}
+  m_LocalRotation: {x: 0.47920737, y: -0.49244702, z: 0.5025172, w: 0.5247215}
+  m_LocalPosition: {x: -61.200012, y: -1.2, z: 101.40004}
+  m_LocalScale: {x: -7.6200004, y: 1.0406752, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 57.219}
+--- !u!65 &268547729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268547727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &273164752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
@@ -8460,6 +8768,94 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
+--- !u!1 &274631601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274631602}
+  - component: {fileID: 274631603}
+  m_Layer: 3
+  m_Name: RockDeteckt (28)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274631602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274631601}
+  m_LocalRotation: {x: 0.5478393, y: 0.3163379, z: -0.32846436, w: 0.70136553}
+  m_LocalPosition: {x: -64.950005, y: -2.71, z: 69.05002}
+  m_LocalScale: {x: -7.620001, y: 0.5357599, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 77.496, y: 22.785, z: -31.818}
+--- !u!65 &274631603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274631601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
+--- !u!1 &282922323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 282922324}
+  - component: {fileID: 282922325}
+  m_Layer: 3
+  m_Name: RockDeteckt (15)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &282922324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282922323}
+  m_LocalRotation: {x: 0.6168794, y: 0.30240157, z: -0.24402411, w: 0.68444526}
+  m_LocalPosition: {x: -118.60003, y: -1.5, z: 120.40003}
+  m_LocalScale: {x: -3.7160952, y: 0.72081006, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 18.05}
+--- !u!65 &282922325
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282922323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &284184118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8912,8 +9308,7 @@ Transform:
   m_LocalPosition: {x: -100, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 623462699}
-  - {fileID: 1081233503}
+  - {fileID: 1607590364}
   m_Father: {fileID: 1374518211}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9603,6 +9998,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
+--- !u!1 &403582130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403582131}
+  - component: {fileID: 403582132}
+  m_Layer: 3
+  m_Name: RockDeteckt (37)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403582131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403582130}
+  m_LocalRotation: {x: 0.60687184, y: -0.33279562, z: 0.3437657, w: 0.6346486}
+  m_LocalPosition: {x: -97.89003, y: -0.61, z: 100.69003}
+  m_LocalScale: {x: -3.8602886, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 50.139}
+--- !u!65 &403582132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403582130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &405275951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10756,6 +11195,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
   m_PrefabInstance: {fileID: 13024288}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &520313564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520313565}
+  - component: {fileID: 520313566}
+  m_Layer: 3
+  m_Name: WaterDeteckt (5)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520313565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520313564}
+  m_LocalRotation: {x: 0.6702087, y: 0.17281903, z: -0.18383618, w: 0.6979672}
+  m_LocalPosition: {x: -106.96, y: -1.21, z: 106.92}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -36.258}
+--- !u!65 &520313566
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520313564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1 &525288953
 GameObject:
   m_ObjectHideFlags: 0
@@ -11834,7 +12317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623462699}
   - component: {fileID: 623462700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RockDeteckt
   m_TagString: RockFloor
   m_Icon: {fileID: 0}
@@ -11848,11 +12331,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623462698}
-  m_LocalRotation: {x: 0.69051707, y: -0.047248382, z: 0.045542706, w: 0.72033304}
-  m_LocalPosition: {x: -125.23, y: 0.3, z: 97.19}
-  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_LocalRotation: {x: 0.6905171, y: -0.047248356, z: 0.045542683, w: 0.72033304}
+  m_LocalPosition: {x: -125.30003, y: -1.5, z: 97.30003}
+  m_LocalScale: {x: -7.6199994, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 352875894}
+  m_Father: {fileID: 1607590364}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 0.489}
 --- !u!65 &623462700
@@ -11866,7 +12349,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.53, y: 8.96, z: 3.38}
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
   m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &624085706
 PrefabInstance:
@@ -12805,6 +13288,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
+--- !u!1 &640391883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640391884}
+  - component: {fileID: 640391885}
+  m_Layer: 3
+  m_Name: RockDeteckt (12)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640391884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640391883}
+  m_LocalRotation: {x: 0.6886509, y: 0.06932597, z: -0.07601212, w: 0.7177576}
+  m_LocalPosition: {x: -131.10004, y: -1.5, z: 113.90004}
+  m_LocalScale: {x: -3.7160954, y: 0.7208101, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -18.837}
+--- !u!65 &640391885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640391883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &642768262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
@@ -12883,6 +13410,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
+--- !u!1 &653054770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653054771}
+  - component: {fileID: 653054772}
+  m_Layer: 3
+  m_Name: RockDeteckt (10)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653054771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653054770}
+  m_LocalRotation: {x: 0.6916492, y: -0.025839293, z: 0.023211056, w: 0.72139794}
+  m_LocalPosition: {x: -145.30003, y: -1.5, z: 102.20003}
+  m_LocalScale: {x: -7.62, y: 0.7208101, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -3.061}
+--- !u!65 &653054772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653054770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &654815224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
@@ -12893,6 +13464,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
   m_PrefabInstance: {fileID: 1816996380}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &660231640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660231641}
+  - component: {fileID: 660231642}
+  m_Layer: 3
+  m_Name: RockDeteckt (16)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660231641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660231640}
+  m_LocalRotation: {x: 0.68125266, y: 0.08877844, z: -0.011828122, w: 0.72654885}
+  m_LocalPosition: {x: -117.700035, y: -1.5, z: 126.60003}
+  m_LocalScale: {x: -2.5434444, y: 1.2560116, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 55.43}
+--- !u!65 &660231642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660231640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &661597933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13016,6 +13631,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
   m_PrefabInstance: {fileID: 2124366425}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &668194368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668194369}
+  - component: {fileID: 668194370}
+  m_Layer: 3
+  m_Name: RockDeteckt (11)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668194369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668194368}
+  m_LocalRotation: {x: 0.6886509, y: 0.06932597, z: -0.07601212, w: 0.7177576}
+  m_LocalPosition: {x: -132.30005, y: -1.5, z: 108.10002}
+  m_LocalScale: {x: -3.2614493, y: 0.7208101, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -18.837}
+--- !u!65 &668194370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668194368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &668998751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13421,6 +14080,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
+--- !u!1 &703055529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703055530}
+  - component: {fileID: 703055531}
+  m_Layer: 3
+  m_Name: WaterDeteckt (6)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703055530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703055529}
+  m_LocalRotation: {x: 0.5588654, y: 0.40830806, z: -0.4288054, w: 0.58058584}
+  m_LocalPosition: {x: -101.81, y: -1.15, z: 109.1}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -79.644}
+--- !u!65 &703055531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703055529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &707349765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
@@ -13574,6 +14277,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 1224431968}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &723788586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723788587}
+  - component: {fileID: 723788588}
+  m_Layer: 3
+  m_Name: RockDeteckt (35)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723788587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723788586}
+  m_LocalRotation: {x: 0.4952003, y: 0.47619691, z: -0.441218, w: 0.5773559}
+  m_LocalPosition: {x: -101.79004, y: 0.33, z: 139.86003}
+  m_LocalScale: {x: -3.7160954, y: 1.921114, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: -17.48}
+--- !u!65 &723788588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723788586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &728384018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14013,7 +14760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.62
+      value: 1.58
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14112,6 +14859,14 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepRock.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepWater.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_HeadBob.VerticalBobRange
       value: 0.1
       objectReference: {fileID: 0}
@@ -14119,6 +14874,26 @@ PrefabInstance:
       propertyPath: m_FootstepSounds.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepsGrass.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepRock.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepRock.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepRock.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepRock.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_GoldPickUpSound.Array.size
       value: 3
@@ -14128,13 +14903,45 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepWater.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 64b6a0192802cda42abdde2f57a0a6c7, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepWater.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b9d8137833b04a54e91c3a0d8a7695db, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepWater.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 413ea1f13833f104fb385fe7e8d84012, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepWater.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 10235f5437071d643bc79e763b227f33, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
+      objectReference: {fileID: 8300000, guid: ce2d1ee7e0fcd3b408f3e60ca73daa35, type: 3}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSounds.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
+      objectReference: {fileID: 8300000, guid: ce2d1ee7e0fcd3b408f3e60ca73daa35, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepsGrass.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ce2d1ee7e0fcd3b408f3e60ca73daa35, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepsGrass.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 876b8bd83e48834419ad26ac07f79227, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepsGrass.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 108f1fd1963172e43b86d9a5cc6264c4, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepsGrass.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 29fdac403dd823c479f1e6dcbbdff63d, type: 3}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_GoldPickUpSound.Array.data[0]
       value: 
@@ -14613,6 +15420,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
+--- !u!1 &852786224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852786225}
+  - component: {fileID: 852786226}
+  m_Layer: 3
+  m_Name: RockDeteckt (19)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &852786225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852786224}
+  m_LocalRotation: {x: 0.4952003, y: 0.47619691, z: -0.441218, w: 0.5773559}
+  m_LocalPosition: {x: -107.900024, y: -1.5, z: 119.70003}
+  m_LocalScale: {x: -3.7160954, y: 2.8953373, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: -17.48}
+--- !u!65 &852786226
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852786224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &853751003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
@@ -14683,6 +15534,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
+--- !u!1 &863842553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863842554}
+  - component: {fileID: 863842555}
+  m_Layer: 3
+  m_Name: RockDeteckt (9)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863842554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863842553}
+  m_LocalRotation: {x: 0.6886509, y: 0.06932597, z: -0.07601212, w: 0.7177576}
+  m_LocalPosition: {x: -134.40002, y: -1.5, z: 103.00003}
+  m_LocalScale: {x: -7.62, y: 0.7208101, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -18.837}
+--- !u!65 &863842555
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863842553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &864314120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14758,6 +15653,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
   m_PrefabInstance: {fileID: 1474575392}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &874761877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874761878}
+  - component: {fileID: 874761879}
+  m_Layer: 3
+  m_Name: RockDeteckt (18)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874761878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874761877}
+  m_LocalRotation: {x: 0.6477207, y: 0.22900842, z: -0.16320656, w: 0.7080797}
+  m_LocalPosition: {x: -119.40003, y: -1.5, z: 107.90003}
+  m_LocalScale: {x: -3.7160957, y: 1.5574394, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 31.336}
+--- !u!65 &874761879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874761877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &875798436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14949,6 +15888,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
+--- !u!1 &879231198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879231199}
+  - component: {fileID: 879231200}
+  m_Layer: 3
+  m_Name: WaterDeteckt (10)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879231199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879231198}
+  m_LocalRotation: {x: -0.0696966, y: -0.72567827, z: 0.68086857, w: -0.070367806}
+  m_LocalPosition: {x: -85.06, y: -3.26, z: 101.01}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 49
+  m_LocalEulerAnglesHint: {x: 86.368, y: -186.545, z: 4.829}
+--- !u!65 &879231200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879231198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1 &884923527
 GameObject:
   m_ObjectHideFlags: 0
@@ -14988,6 +15971,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400028, guid: 8549c40abaeca4db5b2b9cb09ecd527f, type: 3}
   m_PrefabInstance: {fileID: 358968049}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &888623878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888623879}
+  - component: {fileID: 888623880}
+  m_Layer: 3
+  m_Name: RockDeteckt (22)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &888623879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888623878}
+  m_LocalRotation: {x: -0.032842603, y: 0.6862275, z: -0.7250878, w: 0.047550045}
+  m_LocalPosition: {x: -82.50002, y: -1.5, z: 121.30004}
+  m_LocalScale: {x: -3.7160938, y: 1.7876968, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: -115.201}
+--- !u!65 &888623880
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888623878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &891576839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15347,6 +16374,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
   m_PrefabInstance: {fileID: 1203374356}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &952401790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 952401791}
+  - component: {fileID: 952401792}
+  m_Layer: 3
+  m_Name: WaterDeteckt (2)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &952401791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952401790}
+  m_LocalRotation: {x: 0.60687184, y: -0.33279562, z: 0.3437657, w: 0.6346486}
+  m_LocalPosition: {x: -106.13, y: -1.73, z: 94.34}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 50.139}
+--- !u!65 &952401792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952401790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &956987885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
@@ -15362,6 +16433,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
   m_PrefabInstance: {fileID: 405275951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &968952156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 968952157}
+  - component: {fileID: 968952158}
+  m_Layer: 3
+  m_Name: WaterDeteckt (8)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968952157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968952156}
+  m_LocalRotation: {x: 0.48033306, y: -0.5484035, z: 0.51816106, w: 0.44726145}
+  m_LocalPosition: {x: -93.25, y: -2.87, z: 93.84}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 86.368, y: -186.545, z: -88.572}
+--- !u!65 &968952158
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968952156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &978044817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16362,6 +17477,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
+--- !u!1 &1047096329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047096330}
+  - component: {fileID: 1047096331}
+  m_Layer: 3
+  m_Name: WaterDeteckt (1)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1047096330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047096329}
+  m_LocalRotation: {x: 0.60687184, y: -0.33279562, z: 0.3437657, w: 0.6346486}
+  m_LocalPosition: {x: -104.16, y: -1.61, z: 97.39}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 50.139}
+--- !u!65 &1047096331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047096329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1047132345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16963,7 +18122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081233503}
   - component: {fileID: 1081233504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RockDeteckt (1)
   m_TagString: RockFloor
   m_Icon: {fileID: 0}
@@ -16977,11 +18136,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081233502}
-  m_LocalRotation: {x: 0.6872152, y: -0.08463613, z: 0.08138255, w: 0.7169022}
-  m_LocalPosition: {x: -124.59, y: 0.3, z: 87.62}
-  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_LocalRotation: {x: 0.68721527, y: -0.08463612, z: 0.08138257, w: 0.71690226}
+  m_LocalPosition: {x: -124.70003, y: -1.5, z: 87.700005}
+  m_LocalScale: {x: -7.6199994, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 352875894}
+  m_Father: {fileID: 1607590364}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 87.58, y: -12.998, z: 0.489}
 --- !u!65 &1081233504
@@ -16995,13 +18154,57 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.71, y: 14.48, z: 3.38}
+  m_Size: {x: 0.71, y: 15.06, z: 13.76}
   m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1085247021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
   m_PrefabInstance: {fileID: 465075665}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1087936431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087936432}
+  - component: {fileID: 1087936433}
+  m_Layer: 3
+  m_Name: RockDeteckt (30)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1087936432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087936431}
+  m_LocalRotation: {x: 0.64973, y: -0.2235949, z: 0.21206968, w: 0.6948977}
+  m_LocalPosition: {x: -65.68001, y: -2.11, z: 83.040016}
+  m_LocalScale: {x: -7.6199994, y: 0.72683, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 3.638}
+--- !u!65 &1087936433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087936431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1093293041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17930,6 +19133,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 1496638935}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1184826106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184826107}
+  - component: {fileID: 1184826108}
+  m_Layer: 3
+  m_Name: RockDeteckt (26)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184826107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184826106}
+  m_LocalRotation: {x: 0.67502916, y: -0.12837212, z: 0.110505566, w: 0.71808416}
+  m_LocalPosition: {x: -86.56002, y: -2.25, z: 67.83002}
+  m_LocalScale: {x: -7.6200004, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: -12.807}
+--- !u!65 &1184826108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184826106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1193806369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18008,6 +19255,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
   m_PrefabInstance: {fileID: 1239963105}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1199295741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199295742}
+  - component: {fileID: 1199295743}
+  m_Layer: 3
+  m_Name: WaterDeteckt (11)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1199295742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199295741}
+  m_LocalRotation: {x: -0.27437776, y: -0.6754135, z: 0.6322843, w: -0.26220226}
+  m_LocalPosition: {x: -88.1, y: -3.6, z: 106}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 50
+  m_LocalEulerAnglesHint: {x: 86.368, y: -186.545, z: 38.074}
+--- !u!65 &1199295743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199295741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1203106819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -19277,6 +20568,94 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
+--- !u!1 &1252607969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252607970}
+  - component: {fileID: 1252607971}
+  m_Layer: 3
+  m_Name: WaterDeteckt (9)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1252607970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252607969}
+  m_LocalRotation: {x: 0.19600414, y: -0.70217437, z: 0.66060567, w: 0.17925932}
+  m_LocalPosition: {x: -86.45, y: -2.9, z: 95.12}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 86.368, y: -186.545, z: -37.336}
+--- !u!65 &1252607971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252607969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
+--- !u!1 &1260383039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260383040}
+  - component: {fileID: 1260383041}
+  m_Layer: 3
+  m_Name: RockDeteckt (3)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1260383040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260383039}
+  m_LocalRotation: {x: 0.5161066, y: -0.45362738, z: 0.46012184, w: 0.5622669}
+  m_LocalPosition: {x: -98.70003, y: -1.5, z: 80.50002}
+  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 48.284}
+--- !u!65 &1260383041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260383039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1261533269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19342,6 +20721,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
+--- !u!1 &1265466643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1265466644}
+  - component: {fileID: 1265466645}
+  m_Layer: 3
+  m_Name: RockDeteckt (17)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1265466644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265466643}
+  m_LocalRotation: {x: 0.6168794, y: 0.30240157, z: -0.24402411, w: 0.68444526}
+  m_LocalPosition: {x: -114.30003, y: -1.5, z: 116.00003}
+  m_LocalScale: {x: -3.7160952, y: 0.9615606, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 18.05}
+--- !u!65 &1265466645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265466643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1267890597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
@@ -20058,6 +21481,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
   m_PrefabInstance: {fileID: 1740772833}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1311770756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1311770757}
+  - component: {fileID: 1311770758}
+  m_Layer: 3
+  m_Name: RockDeteckt (27)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311770757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311770756}
+  m_LocalRotation: {x: 0.64973, y: -0.2235949, z: 0.21206968, w: 0.6948977}
+  m_LocalPosition: {x: -72.550026, y: -2.2, z: 77.09001}
+  m_LocalScale: {x: -7.6199994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 3.638}
+--- !u!65 &1311770758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311770756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1314539205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
@@ -20230,7 +21697,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
   m_PrefabInstance: {fileID: 1308133850}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1340145630
+=======
+--- !u!1 &1339694694
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20238,20 +21709,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1340145631}
   m_Layer: 0
   m_Name: GoldCoinSpawner (11)
   m_TagString: Untagged
+=======
+  - component: {fileID: 1339694695}
+  - component: {fileID: 1339694696}
+  m_Layer: 3
+  m_Name: RockDeteckt (7)
+  m_TagString: RockFloor
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &1340145631
+=======
+--- !u!4 &1339694695
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1340145630}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -32.48, y: -4.996, z: 63.06}
@@ -20260,6 +21744,29 @@ Transform:
   m_Father: {fileID: 247125650}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1339694694}
+  m_LocalRotation: {x: 0.37811235, y: -0.5737377, z: 0.5921826, w: 0.42092282}
+  m_LocalPosition: {x: -113.30003, y: -1.5, z: 79.80001}
+  m_LocalScale: {x: -7.619998, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 78.885}
+--- !u!65 &1339694696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339694694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 15.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
+>>>>>>> Stashed changes
 --- !u!4 &1342127036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -20697,7 +22204,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
   m_PrefabInstance: {fileID: 567084598}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1396307871
+=======
+--- !u!1 &1398930651
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20705,20 +22216,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1396307872}
   m_Layer: 0
   m_Name: GoldCoinSpawner (13)
   m_TagString: Untagged
+=======
+  - component: {fileID: 1398930652}
+  - component: {fileID: 1398930653}
+  m_Layer: 3
+  m_Name: RockDeteckt (14)
+  m_TagString: RockFloor
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &1396307872
+=======
+--- !u!4 &1398930652
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1396307871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -79.62, y: -5.024, z: 28.194}
@@ -20727,6 +22251,29 @@ Transform:
   m_Father: {fileID: 247125650}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1398930651}
+  m_LocalRotation: {x: 0.56404114, y: 0.39223012, z: -0.34474432, w: 0.63965964}
+  m_LocalPosition: {x: -124.00002, y: -1.5, z: 117.60003}
+  m_LocalScale: {x: -3.7160954, y: 0.72081006, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 0.65}
+--- !u!65 &1398930653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398930651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &1401445098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21534,7 +23081,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1482530749
+=======
+--- !u!1 &1484283494
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21542,20 +23093,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1482530750}
   m_Layer: 0
   m_Name: GoldCoinSpawner (12)
   m_TagString: Untagged
+=======
+  - component: {fileID: 1484283495}
+  - component: {fileID: 1484283496}
+  m_Layer: 3
+  m_Name: RockDeteckt (13)
+  m_TagString: RockFloor
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &1482530750
+=======
+--- !u!4 &1484283495
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1482530749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -78.529, y: -4.711, z: 50.31}
@@ -21564,6 +23128,29 @@ Transform:
   m_Father: {fileID: 247125650}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1484283494}
+  m_LocalRotation: {x: 0.62671596, y: 0.28144988, z: -0.22082955, w: 0.6922771}
+  m_LocalPosition: {x: -136.00003, y: -1.5, z: 117.30003}
+  m_LocalScale: {x: -3.7160952, y: 0.72081, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: 21.911}
+--- !u!65 &1484283496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484283494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
+>>>>>>> Stashed changes
 --- !u!4 &1485348590 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -22531,11 +24118,99 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
+--- !u!1 &1600664721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600664722}
+  - component: {fileID: 1600664723}
+  m_Layer: 3
+  m_Name: RockDeteckt (29)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600664722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600664721}
+  m_LocalRotation: {x: 0.6871224, y: -0.0025578735, z: -0.022892622, w: 0.72617644}
+  m_LocalPosition: {x: -98.96004, y: -1.88, z: 66.56002}
+  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: -33.916}
+--- !u!65 &1600664723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600664721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1601142097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 1700349875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1601627576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601627577}
+  - component: {fileID: 1601627578}
+  m_Layer: 3
+  m_Name: WaterDeteckt (12)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1601627577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601627576}
+  m_LocalRotation: {x: -0.36435845, y: -0.595375, z: 0.5840262, w: -0.41434887}
+  m_LocalPosition: {x: -92.38, y: -3.83, z: 108.34}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 85.845, y: -290.645, z: -43.774}
+--- !u!65 &1601627578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601627576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1602310803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22706,6 +24381,88 @@ Transform:
   - {fileID: 258223285}
   - {fileID: 1274453297}
   m_Father: {fileID: 1794151032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1607590363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1607590364}
+  m_Layer: 0
+  m_Name: ROCKFLOOR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1607590364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607590363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 623462699}
+  - {fileID: 1081233503}
+  - {fileID: 151065437}
+  - {fileID: 1260383040}
+  - {fileID: 1691951436}
+  - {fileID: 2059539658}
+  - {fileID: 2000922521}
+  - {fileID: 1339694695}
+  - {fileID: 1880950532}
+  - {fileID: 863842554}
+  - {fileID: 653054771}
+  - {fileID: 668194369}
+  - {fileID: 640391884}
+  - {fileID: 1484283495}
+  - {fileID: 1398930652}
+  - {fileID: 282922324}
+  - {fileID: 660231641}
+  - {fileID: 1265466644}
+  - {fileID: 874761878}
+  - {fileID: 852786225}
+  - {fileID: 2097582453}
+  - {fileID: 1697442852}
+  - {fileID: 888623879}
+  - {fileID: 29940699}
+  - {fileID: 1781964305}
+  - {fileID: 214670706}
+  - {fileID: 1184826107}
+  - {fileID: 1311770757}
+  - {fileID: 274631602}
+  - {fileID: 1600664722}
+  - {fileID: 1087936432}
+  - {fileID: 268547728}
+  - {fileID: 2008479457}
+  - {fileID: 1990569695}
+  - {fileID: 1949165042}
+  - {fileID: 723788587}
+  - {fileID: 1743119443}
+  - {fileID: 403582131}
+  - {fileID: 1846129510}
+  - {fileID: 33255770}
+  - {fileID: 1047096330}
+  - {fileID: 952401791}
+  - {fileID: 95933966}
+  - {fileID: 2102813378}
+  - {fileID: 520313565}
+  - {fileID: 703055530}
+  - {fileID: 165760437}
+  - {fileID: 968952157}
+  - {fileID: 1252607970}
+  - {fileID: 879231199}
+  - {fileID: 1199295742}
+  - {fileID: 1601627577}
+  m_Father: {fileID: 352875894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1607836389
@@ -23683,11 +25440,99 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
+--- !u!1 &1691951435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691951436}
+  - component: {fileID: 1691951437}
+  m_Layer: 3
+  m_Name: RockDeteckt (4)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691951436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691951435}
+  m_LocalRotation: {x: 0.5161066, y: -0.45362738, z: 0.46012184, w: 0.5622669}
+  m_LocalPosition: {x: -121.900024, y: -1.5, z: 79.800026}
+  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 48.284}
+--- !u!65 &1691951437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691951435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 11.1, z: 14.15}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1693817871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 367463200}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1697442851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697442852}
+  - component: {fileID: 1697442853}
+  m_Layer: 3
+  m_Name: RockDeteckt (21)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697442852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697442851}
+  m_LocalRotation: {x: 0.3711092, y: 0.5781564, z: -0.56320757, w: 0.45914105}
+  m_LocalPosition: {x: -87.00002, y: -1.5, z: 116.80004}
+  m_LocalScale: {x: -3.716095, y: 1.7876968, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: -44.329}
+--- !u!65 &1697442853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697442851}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1698042602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24494,6 +26339,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6020bd5b39392474eb9b0c3cef2151e9, type: 3}
+--- !u!1 &1743119442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743119443}
+  - component: {fileID: 1743119444}
+  m_Layer: 3
+  m_Name: RockDeteckt (36)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1743119443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743119442}
+  m_LocalRotation: {x: 0.67643774, y: -0.1465547, z: 0.14917628, w: 0.7061871}
+  m_LocalPosition: {x: -99.32004, y: -1.46, z: 101.61003}
+  m_LocalScale: {x: -3.8602889, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 17.109}
+--- !u!65 &1743119444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743119442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1744327436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
@@ -24830,6 +26719,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 48610cb74c7304308a4e5a3ef360ea06, type: 3}
   m_PrefabInstance: {fileID: 1630790969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1781964304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1781964305}
+  - component: {fileID: 1781964306}
+  m_Layer: 3
+  m_Name: RockDeteckt (24)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1781964305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781964304}
+  m_LocalRotation: {x: 0.17687996, y: -0.6639709, z: 0.695028, w: 0.21164206}
+  m_LocalPosition: {x: -76.20002, y: -1.5, z: 95.500015}
+  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 115.824}
+--- !u!65 &1781964306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781964304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1789490937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
@@ -26092,6 +28025,50 @@ Transform:
   m_Father: {fileID: 2026663160}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846129509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846129510}
+  - component: {fileID: 1846129511}
+  m_Layer: 3
+  m_Name: RockDeteckt (38)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846129510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846129509}
+  m_LocalRotation: {x: 0.60687184, y: -0.33279562, z: 0.3437657, w: 0.6346486}
+  m_LocalPosition: {x: -90.000015, y: -2.01, z: 89.76002}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: 50.139}
+--- !u!65 &1846129511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846129509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1847664325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3cb47517ccd4f492bbc5c7a943d6a1c5, type: 3}
@@ -26298,6 +28275,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
+--- !u!1 &1880950531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880950532}
+  - component: {fileID: 1880950533}
+  m_Layer: 3
+  m_Name: RockDeteckt (8)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880950532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880950531}
+  m_LocalRotation: {x: 0.6871032, y: -0.005728602, z: -0.01954165, w: 0.7262745}
+  m_LocalPosition: {x: -138.30005, y: -1.5, z: 71.70001}
+  m_LocalScale: {x: -7.6200004, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: -33.387}
+--- !u!65 &1880950533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880950531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 6.15, z: 14.15}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1882195893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4ee4e048715c24510bf1c991cef4afec, type: 3}
@@ -27288,6 +29309,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
+--- !u!1 &1949165041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949165042}
+  - component: {fileID: 1949165043}
+  m_Layer: 3
+  m_Name: RockDeteckt (34)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949165042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949165041}
+  m_LocalRotation: {x: 0.16098149, y: -0.6680037, z: 0.6998815, w: 0.19499235}
+  m_LocalPosition: {x: -72.280014, y: -1.17, z: 114.57004}
+  m_LocalScale: {x: -7.6199965, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 118.559}
+--- !u!65 &1949165043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949165041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 19.4, z: 13.94}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &1952847374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27785,6 +29850,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
   m_PrefabInstance: {fileID: 1356379237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1990569694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1990569695}
+  - component: {fileID: 1990569696}
+  m_Layer: 3
+  m_Name: RockDeteckt (33)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1990569695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990569694}
+  m_LocalRotation: {x: 0.16105337, y: -0.6888079, z: 0.70493263, w: -0.051724512}
+  m_LocalPosition: {x: -58.580025, y: -0.39, z: 113.97004}
+  m_LocalScale: {x: -7.620003, y: 0.4276452, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 72.643, y: 90.152, z: 261.181}
+--- !u!65 &1990569696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990569694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &1997864813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9071bf23f31d6488995881269526c5fb, type: 3}
@@ -27863,6 +29972,94 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
+--- !u!1 &2000922520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000922521}
+  - component: {fileID: 2000922522}
+  m_Layer: 3
+  m_Name: RockDeteckt (6)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2000922521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000922520}
+  m_LocalRotation: {x: 0.63612336, y: -0.25978997, z: 0.25082365, w: 0.68186796}
+  m_LocalPosition: {x: -129.00003, y: -1.5, z: 76.10002}
+  m_LocalScale: {x: -7.620001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 10.087}
+--- !u!65 &2000922522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000922520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 6.15, z: 14.15}
+  m_Center: {x: 0, y: -0.88, z: 0}
+--- !u!1 &2008479456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008479457}
+  - component: {fileID: 2008479458}
+  m_Layer: 3
+  m_Name: RockDeteckt (32)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2008479457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008479456}
+  m_LocalRotation: {x: 0.16105337, y: -0.6888079, z: 0.70493263, w: -0.051724512}
+  m_LocalPosition: {x: -52.060013, y: 1.65, z: 106.82004}
+  m_LocalScale: {x: -7.620003, y: 0.9267422, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 72.643, y: 90.152, z: 261.181}
+--- !u!65 &2008479458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008479456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 22.4, z: 13.19}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!4 &2010365235 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 05203bee8f0a3494aac84f98f6e62193, type: 3}
@@ -28160,6 +30357,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355b1efd1a6024f1b94873e2bba5a3bb, type: 3}
+--- !u!1 &2059539657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059539658}
+  - component: {fileID: 2059539659}
+  m_Layer: 3
+  m_Name: RockDeteckt (5)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2059539658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059539657}
+  m_LocalRotation: {x: 0.43799758, y: -0.5294355, z: 0.54313785, w: 0.48255312}
+  m_LocalPosition: {x: -118.10003, y: -1.5, z: 71.10002}
+  m_LocalScale: {x: -7.62, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 86.222, y: -32.267, z: 66.456}
+--- !u!65 &2059539659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059539657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 6.15, z: 14.15}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &2062390753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28383,6 +30624,94 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400028, guid: 8549c40abaeca4db5b2b9cb09ecd527f, type: 3}
   m_PrefabInstance: {fileID: 235796775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2097582452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097582453}
+  - component: {fileID: 2097582454}
+  m_Layer: 3
+  m_Name: RockDeteckt (20)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097582453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097582452}
+  m_LocalRotation: {x: 0.4952003, y: 0.47619691, z: -0.441218, w: 0.5773559}
+  m_LocalPosition: {x: -101.46004, y: -1.19, z: 128.97003}
+  m_LocalScale: {x: -13.716677, y: 0.5037597, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 82.76, y: 63.605, z: -17.48}
+--- !u!65 &2097582454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097582452}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
+--- !u!1 &2102813377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2102813378}
+  - component: {fileID: 2102813379}
+  m_Layer: 3
+  m_Name: WaterDeteckt (4)
+  m_TagString: RockFloor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2102813378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102813377}
+  m_LocalRotation: {x: 0.6920832, y: 0.008187411, z: -0.012274829, w: 0.72166693}
+  m_LocalPosition: {x: -110.76, y: -1.34, z: 103.18}
+  m_LocalScale: {x: -3.4856474, y: 0.90142, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607590364}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 87.58, y: -7.037, z: -8.696}
+--- !u!65 &2102813379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102813377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.53, y: 8.62, z: 11.51}
+  m_Center: {x: 0, y: -0.88, z: 0}
 --- !u!1001 &2103676771
 PrefabInstance:
   m_ObjectHideFlags: 0

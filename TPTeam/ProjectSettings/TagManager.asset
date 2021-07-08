@@ -6,12 +6,17 @@ TagManager:
   tags:
   - RockFloor
   - GoldCoins
+<<<<<<< Updated upstream
   - GroundLimit
+=======
+  - Fire
+  - WaterFloor
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - rock
   - Water
   - UI
   - 
@@ -43,4 +48,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Rock
+    uniqueID: 2699489529
     locked: 0

@@ -7,8 +7,8 @@ using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
-    [RequireComponent(typeof (CharacterController))]
-    [RequireComponent(typeof (AudioSource))]
+    [RequireComponent(typeof(CharacterController))]
+    [RequireComponent(typeof(AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
         [SerializeField] private bool m_IsWalking;
@@ -25,7 +25,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();
         [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
         [SerializeField] private float m_StepInterval;
-        [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_FootstepsGrass;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_FootstepRock;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_FootstepWater;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
         [SerializeField] private AudioClip m_FailingDeathSound;
@@ -43,6 +45,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private int grounds = 0;
 
         private Vector3 m_SpawnPoint;
 
@@ -55,11 +58,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_FovKick.Setup(m_Camera);
             m_HeadBob.Setup(m_Camera, m_StepInterval);
             m_StepCycle = 0f;
-            m_NextStep = m_StepCycle/2f;
+            m_NextStep = m_StepCycle / 2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
+<<<<<<< Updated upstream
 			m_MouseLook.Init(transform , m_Camera.transform);
             m_SpawnPoint = transform.position;
+=======
+            m_MouseLook.Init(transform, m_Camera.transform);
+>>>>>>> Stashed changes
         }
 
 
@@ -86,6 +93,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            IsGrounded();
+     
         }
 
 
@@ -96,22 +106,21 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle + .5f;
         }
 
-
         private void FixedUpdate()
         {
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at
-            Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
+            Vector3 desiredMove = transform.forward * m_Input.y + transform.right * m_Input.x;
 
             // get a normal for the surface that is being touched to move along it
             RaycastHit hitInfo;
             Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                               m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+                               m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
+            m_MoveDir.x = desiredMove.x * speed;
+            m_MoveDir.z = desiredMove.z * speed;
 
 
             if (m_CharacterController.isGrounded)
@@ -128,9 +137,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             else
             {
-                m_MoveDir += Physics.gravity*m_GravityMultiplier*Time.fixedDeltaTime;
+                m_MoveDir += Physics.gravity * m_GravityMultiplier * Time.fixedDeltaTime;
             }
-            m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
+            m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
 
             ProgressStepCycle(speed);
             UpdateCameraPosition(speed);
@@ -150,7 +159,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
             {
-                m_StepCycle += (m_CharacterController.velocity.magnitude + (speed*(m_IsWalking ? 1f : m_RunstepLenghten)))*
+                m_StepCycle += (m_CharacterController.velocity.magnitude + (speed * (m_IsWalking ? 1f : m_RunstepLenghten))) *
                              Time.fixedDeltaTime;
             }
 
@@ -171,14 +180,31 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
-            // pick & play a random footstep sound from the array,
-            // excluding sound at index 0
-            int n = Random.Range(1, m_FootstepSounds.Length);
-            m_AudioSource.clip = m_FootstepSounds[n];
-            m_AudioSource.PlayOneShot(m_AudioSource.clip);
-            // move picked sound to index 0 so it's not picked next time
-            m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
+            if (grounds == 0)
+            {
+                int n = Random.Range(1, m_FootstepsGrass.Length);
+                m_AudioSource.clip = m_FootstepsGrass[n];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                m_FootstepsGrass[n] = m_FootstepsGrass[0];
+                m_FootstepsGrass[0] = m_AudioSource.clip;
+            }
+            else if (grounds == 1)
+            {
+                int n = Random.Range(1, m_FootstepRock.Length);
+                m_AudioSource.clip = m_FootstepRock[n];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                m_FootstepRock[n] = m_FootstepRock[0];
+                m_FootstepRock[0] = m_AudioSource.clip;
+            }
+            else if(grounds == 2)
+            {
+                int n = Random.Range(1, m_FootstepWater.Length);
+                m_AudioSource.clip = m_FootstepWater[n];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                m_FootstepWater[n] = m_FootstepWater[0];
+                m_FootstepWater[0] = m_AudioSource.clip;
+            }
+
         }
 
 
@@ -193,7 +219,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Camera.transform.localPosition =
                     m_HeadBob.DoHeadBob(m_CharacterController.velocity.magnitude +
-                                      (speed*(m_IsWalking ? 1f : m_RunstepLenghten)));
+                                      (speed * (m_IsWalking ? 1f : m_RunstepLenghten)));
                 newCameraPosition = m_Camera.transform.localPosition;
                 newCameraPosition.y = m_Camera.transform.localPosition.y - m_JumpBob.Offset();
             }
@@ -241,7 +267,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void RotateView()
         {
-            m_MouseLook.LookRotation (transform, m_Camera.transform);
+            m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
 
 
@@ -258,14 +284,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
-            body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+            body.AddForceAtPosition(m_CharacterController.velocity * 0.1f, hit.point, ForceMode.Impulse);
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("RockFloor"))
             {
-                Debug.Log("GabIsgay");
+                //grounds = 1;
             }
 
             if (other.CompareTag("GroundLimit"))
@@ -273,6 +299,55 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_AudioSource.clip = m_FailingDeathSound;
                 m_AudioSource.Play();
                 
+            }
+        }
+
+        //void OnTriggerStay(Collider other)
+        //{
+        //    if (other.CompareTag("RockFloor"))
+        //    {
+        //        grounds = 1;
+        //    }
+        //    else
+        //    {
+        //        grounds = 0;
+        //    }
+              
+        //}
+
+        void OnTriggerExit(Collider other)
+        {
+            //grounds = 0;
+        }
+
+        private bool IsGrounded()
+        {
+            Debug.DrawRay(transform.position + new Vector3(0, 10, 0), Vector3.down , Color.green);
+            RaycastHit Info;
+            if (Physics.Raycast(transform.position + new Vector3(0,5,0), Vector3.down, out Info))
+            {
+                if(Info.collider.tag =="RockFloor")
+                {
+                    grounds = 1;
+                    Debug.Log("1111");
+                }
+                else if(Info.collider.tag == "WaterFloor")
+                {
+                    grounds = 2;
+                    Debug.Log("22222");
+                }
+                else
+                {
+                    grounds = 0;
+                    Debug.Log(Info.GetType());
+                }
+                return true;
+
+            }
+            else
+            {
+                Debug.Log("aaaaaaaaaaa");
+                return false;
             }
         }
     }
